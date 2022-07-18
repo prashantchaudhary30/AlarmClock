@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="clock">
+            <div class="hour">
+                <div class="hr" id="hr">
+
+                </div>
+            </div>
+
+            <div class="min">
+                <div class="minu" id="minu">
+
+                </div>
+            </div>
+
+            <div class="sec">
+                <div class="second" id="second">
+
+                </div>
+            </div>
+        </div>
+        <div class="alram">
+            
+            <div class="column">
+                <select>
+                    <option value="Hour" selected hidden>Hour</option>
+                </select>
+            </div>
+
+            <div class="column">
+                <select>
+                    <option value="Minute" selected hidden>Minute</option>
+                </select>
+            </div>
+            
+            <div class="column">
+                <select>
+                    <option value="Meridiem" selected hidden>AM/PM</option>
+                </select>
+            </div> 
+            
+        </div>
+                                
+        <Button class="btn" ><span>Set Alaram</span></Button> 
+
+    </div>
+
+    <script type="text/javascript" src="alramclock.js"/>
+</body>
+
+</html>
