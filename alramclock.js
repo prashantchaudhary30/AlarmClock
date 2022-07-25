@@ -31,10 +31,10 @@ setInterval(() => {
         meridim = "PM";
     }
 
-    // IF HOUR VALUE IS 0, SET THIS VALUE TO 12
+    /* IF HOUR VALUE IS 0, SET THIS VALUE TO 12 */
     h = h==0 ? h=12:h;
 
-    // ADDING 0 BEFORE  HOUR, MINUTES, SECOND IF THIS VALUE IS LESS THAN 10
+    /* ADDING 0 BEFORE  HOUR, MINUTES, SECOND IF THIS VALUE IS LESS THAN 10 */
     h = h < 10 ? "0" + h : h;
     m = m < 10 ? "0" + m : m;
     s = s < 10 ? "0" + s : s;
